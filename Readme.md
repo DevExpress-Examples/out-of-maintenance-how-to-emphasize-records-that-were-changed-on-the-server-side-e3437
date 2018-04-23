@@ -1,0 +1,16 @@
+# How to emphasize records that were changed on the server side
+
+
+<p>It is possible to refresh the grid content using a time interval. However, in cases when some records were changed on the server side, it is hard to distinguish what rows were updated.<br />
+The example illustrates how to highlight changed records using<strong> jQuery effects</strong>.</p><p><strong>See a</strong><strong>lso</strong><strong>:</strong><br />
+<a href="http://community.devexpress.com/blogs/aspnet/archive/2011/06/30/web-design-tip-how-to-add-jquery-yellow-fade-effect-to-asp-net-gridview.aspx"><u>Web Design Tip: How-To Add jQuery Yellow Fade Effect to ASP.NET GridView</u></a></p>
+
+
+<h3>Description</h3>
+
+<p>The example uses a timer with <i>20 sec</i> interval. When the grid is refreshed, its visible page is transferred to the client side. Client-side scripts examine the difference between rows and then highlight them.<br />
+The data source structure uses the <i>&quot;lock&quot;</i> field, which is increased during each record update. The client-side code compares the <i>&quot;lock&quot;</i> field values of records with same indices. If the comparison result is <i>&quot;false&quot;</i>, we highlight records.</p><p>In complex scenarios, when the order of records can be changed, the demonstrated approach might stop working.</p><p>Since all values are stored in a Session, it is possible to open the same demo in two tabs and see how the grid on the first tab behaves when records of the grid in the second tab are edited.</p>
+
+<br/>
+
+
