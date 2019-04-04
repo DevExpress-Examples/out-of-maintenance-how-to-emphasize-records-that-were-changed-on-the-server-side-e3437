@@ -4,7 +4,7 @@
 * [BusinessObject.cs](./CS/WebSite/App_Code/BusinessObject.cs) (VB: [BusinessObject.vb](./VB/WebSite/App_Code/BusinessObject.vb))
 * [DataItem.cs](./CS/WebSite/App_Code/DataItem.cs) (VB: [DataItem.vb](./VB/WebSite/App_Code/DataItem.vb))
 * [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
-* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to emphasize records that were changed on the server side
 
