@@ -7,6 +7,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to emphasize records that were changed on the server side
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e3437/)**
+<!-- run online end -->
 
 
 <p>It is possible to refresh the grid content using a time interval. However, in cases when some records were changed on the server side, it is hard to distinguish what rows were updated.<br />
